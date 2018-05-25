@@ -23,6 +23,8 @@ public class FXMLOCRController implements Initializable {
     private Label label;
     @FXML
     private Button button;
+    @FXML
+    private Button button1;
     
     @FXML
     private void handleButtonAction(ActionEvent event) {

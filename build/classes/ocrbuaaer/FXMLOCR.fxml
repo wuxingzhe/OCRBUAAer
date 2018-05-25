@@ -63,8 +63,16 @@
     <Button fx:id="button" layoutX="461.0" layoutY="216.0" onAction="#handleButtonAction" text="Click Me!" />
     <Label layoutX="99.0" layoutY="71.0" prefHeight="35.0" prefWidth="96.0" text="图片显示" textFill="linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, 0xff0000ff 0.0%, 0x0000ffff 30.0%, 0x000000ff 100.0%)">
       <font>
-        <Font name="AR PL UKai CN" size="20.0" />
+        <Font name="AR PL UKai CN" size="20.0" fx:id="x2" />
       </font>
     </Label>
+    <TextArea layoutX="590.0" layoutY="103.0" prefHeight="156.0" prefWidth="237.0" wrapText="true" />
+    <ScrollBar layoutX="813.0" layoutY="103.0" orientation="VERTICAL" prefHeight="156.0" />
+    <ScrollBar layoutX="590.0" layoutY="106.0" prefWidth="223.0" />
+    <TextArea layoutX="590.0" layoutY="345.0" prefHeight="156.0" prefWidth="237.0" wrapText="true" />
+    <ScrollBar layoutX="806.0" layoutY="341.0" orientation="VERTICAL" prefHeight="156.0" />
+    <ScrollBar layoutX="590.0" layoutY="345.0" prefWidth="223.0" />
+    <Label font="$x2" layoutX="646.0" layoutY="68.0" prefHeight="35.0" prefWidth="126.0" text="提取文字显示" textFill="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 100.0px 100.0px, radius 200.0px, 0xff0000ff 0.0%, 0x0000ffff 30.0%, 0x000000ff 100.0%)" />
+    <Label font="$x2" layoutX="646.0" layoutY="291.0" prefHeight="35.0" prefWidth="126.0" text="翻译结果显示" textFill="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 100.0px 100.0px, radius 200.0px, 0xff0000ff 0.0%, 0x0000ffff 30.0%, 0x000000ff 100.0%)" />
   </children>
 </AnchorPane>
