@@ -12,6 +12,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 
 /**
  *
@@ -25,11 +26,37 @@ public class FXMLOCRController implements Initializable {
     private Button button;
     @FXML
     private Button button1;
+    @FXML
+    private Button button2;
+    @FXML
+    private Button button3;
+    @FXML
+    private TextArea TextArea1;
+    @FXML
+    private TextArea TextArea2;
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
+    }
+    
+    @FXML
+    private void handleButtonAction1(ActionEvent event) {
+        System.out.println("You clicked me!");
+        TextArea1.setText("111");
+    }
+    
+    @FXML
+    private void handleButtonAction2(ActionEvent event) {
+        System.out.println("You clicked me!");
+        TextArea1.setText("222");
+    }
+    
+    @FXML
+    private void handleButtonAction3(ActionEvent event) {
+        System.out.println("222333");
+        TextArea2.setText("333");
     }
     
     @Override
